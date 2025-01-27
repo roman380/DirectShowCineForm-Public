@@ -65,6 +65,8 @@ A couple of The Imaging Source's internal filters are omitted, as they are optio
 
 [Smart Tee Filter](https://learn.microsoft.com/en-us/windows/win32/directshow/smart-tee-filter), [AVI Mux](https://learn.microsoft.com/en-us/windows/win32/directshow/avi-mux-filter), [Filter Writer](https://learn.microsoft.com/en-us/windows/win32/directshow/file-writer-filter), [Video Renderer](https://learn.microsoft.com/en-us/windows/win32/directshow/video-renderer-filter) are standard filters supplied with stock Windows as a part of DirectShow infrastructure.
 
+The demonstration is operational until this summer.
+
 ## Telemetry
 
 The codec submits a summary of the successful sessions online via Telegram API. Depersonalized and nothing fancy, do not get scared.
@@ -92,4 +94,5 @@ Given the state of the technology, the video feed from the camera can also be co
 ## Open Source Licenses
 
 - [Microsoft Windows Implementation Libraries (WIL)](https://github.com/microsoft/wil/blob/master/LICENSE) - MIT License
-- [GoPro CineForm SDK](https://github.com/gopro/cineform-sdk#license-terms) - MIT License
+- [Microsoft Windows Classic Samples (DirectShow BaseClasses)](https://github.com/microsoft/Windows-classic-samples/blob/main/LICENSE) - MIT License
+- [GoPro CineForm SDK](https://github.com/gopro/cineform-sdk/blob/master/LICENSE-MIT) - MIT License
