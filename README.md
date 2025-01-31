@@ -1,7 +1,5 @@
 # DirectShowCineForm - No Frills x64 CFHD codec for The Imaging Source's IC Capture
 
-## Table of Contents
-
   - [Downloads](#downloads)
   - [Instructions](#instructions)
   - [DirectShow Details](#directshow-details)
@@ -91,8 +89,16 @@ HEAD -> main, tag: 20250125.1, origin/main
 
 Given the state of the technology, the video feed from the camera can also be compressed with GPU hardware acceleration. It is possible to implement this including in similar form factor for IC Capture software integration, however this is outside of the scope of this development (also IC Capture offers similar options out of the box, however they are subject to limitations and do not allow full quality preservation).
 
+----
+
 ## Open Source Licenses
 
 - [Microsoft Windows Implementation Libraries (WIL)](https://github.com/microsoft/wil/blob/master/LICENSE) - MIT License
 - [Microsoft Windows Classic Samples (DirectShow BaseClasses)](https://github.com/microsoft/Windows-classic-samples/blob/main/LICENSE) - MIT License
 - [GoPro CineForm SDK](https://github.com/gopro/cineform-sdk/blob/master/LICENSE-MIT) - MIT License
+
+## Trade Marks
+
+- "IC Capture" is the [software product created by](https://www.theimagingsource.com/en-us/product/software/iccapture/) The Imaging Source, which, in turn, is a registered trademark of [The Imaging Source Europe GmbH](https://trademarks.justia.com/773/19/the-imaging-77319076.html)
+- "CineForm" and the CineForm logo are registered trademarks of [GoPro, Inc.](https://trademarks.justia.com/784/16/cineform-78416985.html)
+- All other trademarks, logos, and service marks mentioned are the property of their respective owners
