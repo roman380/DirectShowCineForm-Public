@@ -7,6 +7,8 @@
 
 The project is a demonstration of efficient CineForm DirectShow encoder implementation for The Imaging Source's [IC Capture](https://www.theimagingsource.com/en-us/product/software/iccapture/) software.
 
+▶️ I updated the codec implementation to commercial form factor for those who are interested to license a copy: [A codec for The Imaging Source cameras and [discontinued] IC Capture 2.5 software](https://alax.info/blog/2376). Please [contact](mailto:ryltsov@gmail.com) to request a proforma invoice in the case of interest.
+
 IC Capture is image acquisition software for Windows which works with the hardware from The Imaging Source. The advanced cameras offer wide dynamic range (WDR) exceeding 8 bits per pixel component, and this reduces the range of codecs capable to preserve the video quality. For example, DXK 38UX253 model offers 12-bit dynamic range with streaming over USB 3.1 get 1 hardware interface. This camera streams USB3 Vision `BayerRG12p` (UVC `RGCp`) encoded video over the hardware interface, which is then expanded into [64-bit RGB encoding](https://www.theimagingsource.com/en-us/documentation/icimagingcontrolcpp/PixelformatRGB64.htm) using The Imaging Source UVC driver (Device Driver for The Imaging Source USB 33U, 37U and 38U Cameras).
 
 IC Capture is capable to streams video to AVI files either as uncompressed files or via software codecs for image compression. The uncompressed stream is huge enough to be saved directly, and the available codecs in most cases cannot interface well to this kind of video stream. Additionally, performance factor is important when it comes to processing of high bandwidth video.
