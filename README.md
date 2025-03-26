@@ -1,5 +1,8 @@
 # DirectShowCineForm - No Frills x64 CFHD codec for The Imaging Source's IC Capture
 
+⭐ **2025-03-25** ⭐ The demo has been upgraded into commercially available form factor, please visit [https://iccapturecodecs.alax.info/](https://iccapturecodecs.alax.info/) for further information.
+This build will stop stable operation (demonstration) as scheduled.
+
   - [Downloads](#downloads)
   - [Instructions](#instructions)
   - [DirectShow Details](#directshow-details)
